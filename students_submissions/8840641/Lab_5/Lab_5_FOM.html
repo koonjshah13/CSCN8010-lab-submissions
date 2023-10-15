@@ -15656,8 +15656,9 @@ Name: 1, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This code sorts the results DataFrame first by R-squared (in descending order) and then by MAE (in ascending order). It then selects the model with the highest R-squared and the lowest MAE as the best model.</p>
-<p>The best model will have the highest R-squared value, indicating a good fit to the data, and the lowest MAE, indicating better predictive accuracy. The choice of the best model may also depend on the specific goals of your analysis. If you prioritize goodness of fit (R-squared), you may choose a model with the highest R-squared, and if you prioritize predictive accuracy (MAE), you may choose a model with the lowest MAE.</p>
+<p>This piece of code organizes the results in the DataFrame based on two essential metrics, R-Squared and MAE. Initially, it arranges them in descending order of R-Squared, with the highest values listed first. This is indicative of how well a model fits the data. Afterward, within the same R-Squared values, it further organizes the models in ascending order of MAE, with the lowest values positioned at the top. This suggests how accurately a model makes predictions.</p>
+<p>The selection of the best model is made by considering both of these metrics. The optimal model will possess the highest R-Squared, indicating its ability to explain a substantial portion of the data's variance and its excellent fit to the data. Simultaneously, it will have the lowest MAE, signifying that it can make precise predictions with minimal errors.</p>
+<p>It's crucial to understand that the choice of the best model can be influenced by the specific objectives of your analysis. If the primary aim is to find a model that closely represents the data (goodness of fit),we would lean towards the model with the highest R-Squared. Alternatively, if the primary concern is accurate prediction, We would favor the model with the lowest MAE.</p>
 
 </div>
 </div>
